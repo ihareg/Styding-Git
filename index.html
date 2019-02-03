@@ -6,16 +6,41 @@
 		<meta charset="UTF-8">
 		<meta name="keywords" content="first page, html">
 		<meta name="description" content="My first html page">
+		<link rel="stylesheet" href="style.css">
 		
+		<style type="text/css"> 
+			h3 { color: #434374;
+				 background-color: #666
+			}
+		</style>	
 		
 	</head>
 	<body>
+		
+		
+			<p class="t"> There is an example of the HTML page</p>
+		
+			
+		<h3> Our html code:</h3>
+		
+		<div class="t2">
+			<p>
+			Name:&ltinput type="text" name="name"&gt<br>  
+			Email:&ltinput type="text" name="email&gt<br>
+			Pass:&ltinput type="password" name="password"&gt<br>
+    		&lttextarea name="comment"&gt Your thoughts... &lt/textarea&gt<br> 
+    		&ltinput type="submit" value="Send"&gt 
+			</p>
+		</div>
+			
+		<h3>What we get</h3>
+		
 		<form> 
     		<p>Name:<input type="text" name="name"></p> 
 			<p>Email:<input type="text" name="email"></p>
-			<p>Pass:<input type="text" name="password"></p>
+			<p>Pass:<input type="password" name="password"></p>
     		<p><textarea name="text"> Your thoughts... </textarea></p> 
-    		<input type="submit" value="Send"> 
+    		<input type="submit" value="Send"> <input type="reset" value="Clear"> 
 		</form>
 		
 		
